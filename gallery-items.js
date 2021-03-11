@@ -63,7 +63,4 @@ export default [
     description: 'Lighthouse Coast Sea',
   },
 ];
-
-const divRef = document.querySelector('.lightbox js-lightbox');
-console.log(divRef.classList);
-divRef.classList.add('tttttt');
+////trash
