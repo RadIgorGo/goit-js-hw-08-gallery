@@ -107,7 +107,7 @@ function onTakeSibling(e) {
   if (e.code === 'ArrowLeft' && indexImage !== 0) {
     ontakeValuesOfKeysLightboxImage(
       cloneArrayGalleryItems[indexImage - 1].original,
-      cloneArrayGalleryItems[indexImage - 1].description
+      ~cloneArrayGalleryItems[indexImage - 1].description
     );
   }
   if (e.code === 'ArrowLeft' && indexImage === 0) {
